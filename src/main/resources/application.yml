@@ -1,0 +1,13 @@
+Spring:
+  Application:
+    Name: USER-SERVICE
+
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    Service-url:
+      defaultZone:  http://localhost:8761/eureka/
+  Instance:
+    Hostname: localhost
