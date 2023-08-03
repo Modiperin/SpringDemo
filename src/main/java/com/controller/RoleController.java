@@ -36,5 +36,12 @@ public class RoleController {
 		res.put("Message", "All the Roles");
 		return ResponseEntity.ok().body(res);
 	}
+	
+	@GetMapping("/getDemo")
+	public void demo()
+	{
+		System.out.println("Demoooooo");
+	}
+	
 
 }
